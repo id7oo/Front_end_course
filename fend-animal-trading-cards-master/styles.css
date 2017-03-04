@@ -1,0 +1,35 @@
+
+
+.parrot {
+	width: 300px;
+}
+
+.animal-facts {
+	font-style: italic;
+	xcolor: red;
+}
+
+.habitat {
+	font-weight: bold;
+	list-style-type: none;
+	text-align: justify;
+	list-style: none;
+	display: inline;
+
+}
+
+.border {
+	background-color: #f4f4f4;
+	width: 300px;
+	border: solid; 
+	padding: 10px 10px 10px 10px;
+	text-align: justify;
+
+}
+
+.info {
+	background-color: #fcfcfc;
+	padding: 10px 10px 10px 10px;
+	text-align: justify;
+	border: solid; 	
+}
