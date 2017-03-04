@@ -1,4 +1,6 @@
-
+.head {
+	text-align: center !important;
+}
 
 .parrot {
 	width: 300px;
