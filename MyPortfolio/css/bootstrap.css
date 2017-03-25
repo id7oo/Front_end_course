@@ -1,8 +1,36 @@
 .drop-shadow {
-        -webkit-box-shadow: 0 0 22px 0px rgba(0, 0, 0, 0.25);
-        box-shadow: 0 0 22px 0px rgba(0, 0, 0, 0.25);
+	-webkit-box-shadow: 0 0 22px 0px rgba(0, 0, 0, 0.25);
+	box-shadow: 0 0 22px 0px rgba(0, 0, 0, 0.25);
 }
 
+.width-90 {
+	width: 90% !important;
+}
+.width-40 {
+	width: 40% !important;
+}
+.width-15 {
+	width: 15% !important;
+}
+.width-80 {
+	width: 80% !important;
+}
+.width-85 {
+	width: 85% !important;
+}
+.width-10 {
+	width: 10% !important;
+}
+.width-100 {
+	width: 100% !important;
+}
+.width-60 {
+	width: 60% !important;
+}
+
+.img-padding {
+padding-right: 50px;
+}
 /*.rsow-eq-height {
   display: -webkit-box;
   display: -webkit-flex;
