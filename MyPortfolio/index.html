@@ -1,57 +1,59 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Abdulrahman Aldahlawi Portfolio</title>
+    <title>Abdulrahman Aldahlawi Portfolio</title>
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
     <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
     <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.js"></script>
-  </head>
+</head>
+
 <body>
-<div class="container">
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <div class="navbar-header">
-          <a><img class="img-responsive" src="img/myname.png" alt="My Name">
-          </a>
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a><img class="img-responsive" src="img/myname.png" alt="My Name">
+                    </a>
+                </div>
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#me">Who I'm?</a></li>
+                    <li><a href="#exp">My Experiance</a></li>
+                    <li><a href="#edu">My Education</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Personality<span class="caret"></span></a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown04">
+                            <li><a href="#skills">My Skills</a></li>
+                            <li><a href="#languages">Languages</a></li>
+                            <li><a href="#hobbise">My Hobbise</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- nav-collapse  -->
+            </div>
+            <!-- container-fluid  -->
+        </nav>
+        <div id="me" class="row well well-lg">
+            <div class="col-md-2">
+                <img src="img/mypic.jpg" width="190" alt="This is my picture" class="img-responsive drop-shadow">
+            </div>
+            <div class="col-md-10">
+                <h4 class="text-justify">I'm Abdulrahman Aldahlawi ,I'm 27 old ,Working on KAPSARC as a developer. I'm in love with art and photographer since 2009, I like street life ,portraite photos. Intresting on UI/UX and involved now on Udacity course in "Front End Developer" to got strong background in UI and planing to complete UX course.
+		        </h4>
+            </div>
         </div>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#me">Who I'm?</a></li>
-            <li><a href="#exp">My Experiance</a></li>
-            <li><a href="#edu">My Education</a></li>
-            <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="dropdown04" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Personality<span class="caret"></span></a>
-            <ul class="dropdown-menu" aria-labelledby="dropdown04">
-             <li><a href="#skills">My Skills</a></li>
-             <li><a href="#languages">Languages</a></li>
-             <li><a href="#hobbise">My Hobbise</a></li>
-            </ul>
-             </li>
-          </ul>
-        <!-- nav-collapse  -->
-      </div>
-      <!-- container-fluid  -->
-    </nav>
-  <div id="me" class="row well well-lg">
-      <div class="col-md-2">
-        <img src="img/mypic.jpg" width="190" alt="This is my picture" class="img-responsive drop-shadow">
-      </div>
-      <div class="col-md-10">
-        <h4 class="text-justify">I'm Abdulrahman Aldahlawi ,I'm 27 old ,Working on KAPSARC as a developer. I'm in love with art and photographer since 2009, I like street life ,portraite photos. Intresting on UI/UX and involved now on Udacity course in "Front End Developer" to got strong background in UI and planing to complete UX course.
-        </h4>
-      </div>
-   </div>
-  <div id="exp" class="row well well-lg">
-    <div class="col-md-1 text-left">
-      <img src="img/work.png" alt="work" width="40">
-    </div>
-    <div class="col-md-10">
-    <h4 class="text-justify"> <p>My Experiance<span><a href="https://www.wipro.com"><h6>Wipro LTD 2014-Present</h6></a></span></p> 
+        <div id="exp" class="row well well-lg">
+            <div class="col-md-1 text-left">
+                <img src="img/work.png" alt="work" width="40">
+            </div>
+            <div class="col-md-10">
+                <h4 class="text-justify"> <p>My Experiance<span><a href="https://www.wipro.com"><h6>Wipro LTD 2014-Present</h6></a></span></p> 
       <ul>
         <li>Worked on many critical development which request both technical and functional knowledge.</li>
         <li>Developed multiple reports based on client requerment.</li>
@@ -60,89 +62,85 @@
         <li>Resolved many tickets which required ABAP related developments and changes (reports ,smart forms ,bdc ,etc).</li>
       </ul>
     </h4>
-    </div>
-  </div>
-  <div id="edu" class="row well well-lg">
-    <div class="col-md-1 text-left">
-      <img src="img/edu.png" alt="education" width="40">
-    </div>
-    <div class="col-md-10">
-    <h4 class="text-justify"> <p>My Education<span><a href="https://www.qu.edu.sa/"><h6>Qassim University | 2009-2014</h6></a></span></p> 
+            </div>
+        </div>
+        <div id="edu" class="row well well-lg">
+            <div class="col-md-1 text-left">
+                <img src="img/edu.png" alt="education" width="40">
+            </div>
+            <div class="col-md-10">
+                <h4 class="text-justify"> <p>My Education<span><a href="https://www.qu.edu.sa/"><h6>Qassim University | 2009-2014</h6></a></span></p> 
       <ul>
         <li>Information Technology in computer college for four years after the preparatory year program (PYP).</li>
       </ul>
     </h4>
-    </div>
-  </div>
-  <div id="skills" class="row row-eq-height">
-    <div class="col-md-6 well well-lg div-padding-right">
-      <h4 class="text-justify"> <p>My Skills</p> </h4>
-      <div class="progress">
-        <div class="width-90 progress-bar bg-info" role="progressbar" aria-valuenow="70"
-        aria-valuemin="0" aria-valuemax="100">
-          Photoshop
+            </div>
         </div>
-      </div>
-      <div class="progress">
-        <div class="width-40 progress-bar bg-info" role="progressbar" aria-valuenow="70"
-          aria-valuemin="0" aria-valuemax="100">
-            User Interface
-          </div>
-      </div>
-    <div class="progress">
-      <div class="width-15 progress-bar bg-info" role="progressbar" aria-valuenow="70"
-      aria-valuemin="0" aria-valuemax="100">
-      UX
-      </div>
+        <div id="skills" class="row row-eq-height">
+            <div class="col-md-6 well well-lg div-padding-right">
+                <h4 class="text-justify"> <p>My Skills</p> </h4>
+                <div class="progress">
+                    <div class="width-90 progress-bar bg-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                        Photoshop
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="width-40 progress-bar bg-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                        User Interface
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="width-15 progress-bar bg-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                        UX
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="width-80 progress-bar bg-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                        HTML/CSS
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="width-10 progress-bar bg-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                        JS/AJAX
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="width-85 progress-bar bg-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                        Photography
+                    </div>
+                </div>
+            </div>
+            <div id="languages" class="col-md-6 well well-lg div-padding-left">
+                <h4><p>Language</p></h4>
+                <div class="progress">
+                    <div class="width-100 progress-bar bg-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                        Arabic
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="width-60 progress-bar bg-info" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                        English
+                    </div>
+                </div>
+            </div>
+            <br>
+            <br>
+            <h4><p>Hobbies</p></h4>
+            <div id="hobbise" class="img-responsive text-center">
+                <img class="img-padding" src="img/des.png" alt="Designing">
+                <img class="img-padding" src="img/gm.png" alt="Game Play">
+                <img class="img-padding" src="img/ft.png" alt="Play Football">
+                <img class="img-padding" src="img/bok.png" alt="Reading">
+            </div>
+        </div>
+        <!-- end of skills row -->
+        <div class="row">
+            <div class="col-md-12">
+                <footer class="text-center">This is done by Abdulrahman ,Big thanks to Udacity</footer>
+            </div>
+        </div>
     </div>
-    <div class="progress">
-      <div class="width-80 progress-bar bg-info" role="progressbar" aria-valuenow="70"
-      aria-valuemin="0" aria-valuemax="100">
-      HTML/CSS
-      </div>
-    </div>
-    <div class="progress">
-      <div class="width-10 progress-bar bg-info" role="progressbar" aria-valuenow="70"
-      aria-valuemin="0" aria-valuemax="100">
-      JS/AJAX
-      </div>
-    </div>
-    <div class="progress">
-      <div class="width-85 progress-bar bg-info" role="progressbar" aria-valuenow="70"
-      aria-valuemin="0" aria-valuemax="100">
-      Photography
-      </div>
-      </div>
-    </div>
-    <div id="languages" class="col-md-6 well well-lg div-padding-left">
-	      <h4><p>Language</p></h4>
-	      <div class="progress">
-	        <div class="width-100 progress-bar bg-info" role="progressbar" aria-valuenow="70"
-	        aria-valuemin="0" aria-valuemax="100">
-	        Arabic
-	        </div>
-	      </div>
-	    <div class="progress">
-	      <div class="width-60 progress-bar bg-info" role="progressbar" aria-valuenow="70"
-	      aria-valuemin="0" aria-valuemax="100">
-	      English
-	      </div>
-	    </div>
-    </div>
-    <br><br>
-    <h4><p>Hobbies</p></h4>
-    <div id="hobbise" class="img-responsive text-center">
-      <img class="img-padding" src="img/des.png" alt="Designing">
-      <img class="img-padding" src="img/gm.png" alt="Game Play">
-      <img class="img-padding" src="img/ft.png" alt="Play Football">
-      <img class="img-padding" src="img/bok.png" alt="Reading">
-    </div>
-</div> <!-- end of skills row -->
-<div class="row">
-  <div class="col-md-12">
-    <footer class="text-center">This is done by Abdulrahman ,Big thanks to Udacity</footer>
-  </div>
-</div>
-</div> <!-- end of container -->
+    <!-- end of container -->
 </body>
+
 </html>
