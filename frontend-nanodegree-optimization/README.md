@@ -1,4 +1,4 @@
-Demo of my Work available [here](https://github.com/id7oo/Front_end_course/tree/master/frontend-nanodegree-optimization/dist/index.html).
+Demo of my Work available [here](https://htmlpreview.github.io/?https://github.com/id7oo/Front_end_course/blob/master/frontend-nanodegree-optimization/dist/index.html).
 
 
 ## Website Performance Optimization portfolio project
