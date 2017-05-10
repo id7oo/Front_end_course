@@ -1,6 +1,22 @@
 Demo of my Work available [here](https://htmlpreview.github.io/?https://github.com/id7oo/Front_end_course/blob/master/frontend-nanodegree-optimization/dist/index.html).
 
 
+
+### Results
+
+#### 1- Page Speed Insights
+
+- Mobile: 95/100
+- Desktop: 96/100
+
+#### 2- Optimize Frames Per Second in pizza.html
+
+- Animation render at less than `30fps`
+- Time to resize pizza is in between `1ms to 3ms`. Vary for different pizza sizes
+
+
+
+
 ## Website Performance Optimization portfolio project
 
 Your challenge, if you wish to accept it (and we sure hope you will), is to optimize this online portfolio for speed! In particular, optimize the critical rendering path and make this page render as quickly as possible by applying the techniques you've picked up in the [Critical Rendering Path course](https://www.udacity.com/course/ud884).
