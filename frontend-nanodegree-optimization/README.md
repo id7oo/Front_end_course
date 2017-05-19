@@ -18,8 +18,9 @@ Demo of my Work available [here](https://htmlpreview.github.io/?https://github.c
 - Time to resize pizza is in between `1ms to 3ms`. Vary for different pizza sizes
 
 
+### Getting started
 
-#### Part 1: Optimize PageSpeed Insights score for index.html
+####1: Optimize PageSpeed Insights score for index.html
 
 Some useful tips to help you get started:
 
@@ -32,20 +33,20 @@ Some useful tips to help you get started:
   ```
 
 1. Open a browser and visit localhost:8080
-1. Download and install [ngrok](https://ngrok.com/) to the top-level of your project directory to make your local server accessible remotely.
+1. Download and install [ngrok](https://ngrok.com/) to make your local server accessible remotely.
 
   ``` bash
   $> cd /path/to/your-project-folder
-  $> ./ngrok http 8080
+  $> ngrok 8080
   ```
 
 1. Copy the public URL ngrok gives you and try running it through PageSpeed Insights! Optional: [More on integrating ngrok, Grunt and PageSpeed.](http://www.jamescryer.com/2014/06/12/grunt-pagespeed-and-ngrok-locally-testing/)
 
 Profile, optimize, measure... and then lather, rinse, and repeat. Good luck!
 
-#### Part 2: Optimize Frames per Second in pizza.html
+####2: Optimize Frames per Second in pizza.html
 
-To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js. 
+To optimize views/pizza.html, you will need to modify views/js/main.js until your frames per second rate is 60 fps or higher. You will find instructive comments in main.js.
 
 ### Steps:
 
