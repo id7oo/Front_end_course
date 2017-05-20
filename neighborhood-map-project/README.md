@@ -10,5 +10,5 @@ Using Fourseqare api and google maps api to find resurant loacted on Alwadi Area
 
 ## How To Use
 
-- ![Try here:](https://htmlpreview.github.io/?https://github.com/id7oo/Front_end_course/blob/master/neighborhood-map-project/index.html).
+- [Try here:](https://htmlpreview.github.io/?https://github.com/id7oo/Front_end_course/blob/master/neighborhood-map-project/index.html).
 - Type any of near resurant in Arabic.
