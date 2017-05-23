@@ -45,7 +45,8 @@ var map;
 var clientID;
 var clientSecret;
 
-
+    clientID = "ML3QGPOVQUCAG0E4Q3MSRSV4GEFZIE2CKFJGFYSG5K1NS1WX";
+    clientSecret = "WAF1MGPVW5ZIIR13TWH01XYJDGP2PZUONI2U13JXNMKI2KTT";
 var Location = function(data) {
     var self = this;
     this.name = data.name;
@@ -61,14 +62,17 @@ var Location = function(data) {
     var foursquareURL = 'https://api.foursquare.com/v2/venues/search?ll=' + this.lat + ',' + this.long + '&client_id=' + clientID + '&client_secret=' + clientSecret + '&v=20160118' + '&query=' + this.name;
 
     $.getJSON(foursquareURL).done(function(data) {
+		//debugger;
+		try {
         var results = data.response.venues[0];
-        self.URL = results.url;
-        if (typeof self.URL === 'undefined') {
-            self.URL = "";
-        }
-        self.street = results.location.formattedAddress[0];
+		 self.street = results.location.formattedAddress[0];
         self.city = results.location.formattedAddress[1];
         self.phone = results.contact.phone;
+		self.URL = results.url;
+		}catch(err) {
+			self.URL = 'undefined';
+		}
+       
         if (typeof self.phone === 'undefined') {
             self.phone = "";}
        
@@ -134,8 +138,7 @@ function AppViewModel() {
     });
 
     // My private API id in foursequare
-    clientID = "ML3QGPOVQUCAG0E4Q3MSRSV4GEFZIE2CKFJGFYSG5K1NS1WX";
-    clientSecret = "WAF1MGPVW5ZIIR13TWH01XYJDGP2PZUONI2U13JXNMKI2KTT";
+
 
     initialLocations.forEach(function(locationItem) {
         self.locationList.push(new Location(locationItem));
