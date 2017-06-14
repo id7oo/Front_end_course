@@ -1,7 +1,7 @@
 ### Getting started
 
 
-Demo of my Work available [here](https://htmlpreview.github.io/?https://github.com/id7oo/Front_end_course/blob/master/frontend-nanodegree-optimization/dist/index.html).
+Demo of my Work available [here](https://id7oo.github.io/Front_end_course/frontend-nanodegree-optimization/dist/index.html).
 
 
 
