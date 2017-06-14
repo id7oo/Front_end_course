@@ -1,49 +1,10 @@
 'use strict';
 
-var initialLocations = [{
-        name: 'مشويات ميدان الشام',
-        lat: 24.7869052,
-        long: 46.6904863
-
-    }, {
-        name: 'مايسترو بيتزا',
-        lat: 24.786613,
-        long: 46.689113
-
-
-    }, {
-        name: 'بولفالو وينقز',
-        lat: 24.7838866,
-        long: 46.7038746
-    }, {
-        name: 'صب واي',
-        lat: 24.7854354,
-        long: 46.6848524
-    }, {
-        name: 'مطعم كرم بيروت',
-        lat: 24.7854354,
-        long: 46.6848524,
-    }, {
-        name: 'صحارى الشام',
-        lat: 24.7854744,
-        long: 46.6858126
-    }, {
-        name: 'شاورما نوك',
-        lat: 24.7877277,
-        long: 46.6904448
-    }, {
-        name: 'مطعم فلافل',
-        lat: 24.7873904,
-        long: 46.6895597,
-    }
-
-
-];
-
-// Declaring global variable
 var map;
 var clientID;
 var clientSecret;
+
+        // Client Information for the API
 
     clientID = "ML3QGPOVQUCAG0E4Q3MSRSV4GEFZIE2CKFJGFYSG5K1NS1WX";
     clientSecret = "WAF1MGPVW5ZIIR13TWH01XYJDGP2PZUONI2U13JXNMKI2KTT";
@@ -133,14 +94,14 @@ function AppViewModel() {
     this.locationList = ko.observableArray([]);
 
     map = new google.maps.Map(document.getElementById('map'), {
-        zoom: 16,
+        zoom: 15,
         center: { lat: 24.786806, lng: 46.6967319 }
     });
 
     // My private API id in foursequare
 
 
-    initialLocations.forEach(function(locationItem) {
+    iniplaces.forEach(function(locationItem) {
         self.locationList.push(new Location(locationItem));
     });
 
@@ -170,5 +131,5 @@ function startApp() {
 }
 
 function errorHandling() {
-    alert("Failed to load this map, Check your internet please");
+$("#map").append('<h1><b>Could not load Google Maps!.</b></h1><br>');
 }
