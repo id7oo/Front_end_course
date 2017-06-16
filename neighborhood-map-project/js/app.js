@@ -33,9 +33,12 @@ var Location = function(data) {
 		}catch(err) {
 			self.URL = 'undefined';
 		}
-       
+       if (typeof self.URL === 'There is error with this URL') {
+            self.URL = "There is error with this URL";}
+
+            
         if (typeof self.phone === 'undefined') {
-            self.phone = "";}
+            self.phone = "There is no phone number";}
        
     }).fail(function() {
         alert("There is error with the Foursquare API");
