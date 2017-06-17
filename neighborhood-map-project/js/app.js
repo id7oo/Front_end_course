@@ -33,13 +33,23 @@ var Location = function(data) {
 		}catch(err) {
 			self.URL = 'undefined';
 		}
-       if (typeof self.URL === 'There is error with this URL') {
+       if (typeof self.URL === 'undefined') {
+        // window.alert('there is some information missing');
             self.URL = "There is error with this URL";}
 
             
         if (typeof self.phone === 'undefined') {
             self.phone = "There is no phone number";}
        
+
+        if (typeof self.street === 'undefined') {
+            self.street = "There is no street name";}
+
+ if (typeof self.city === 'undefined') {
+            self.city = "There is no city name";}
+
+
+
     }).fail(function() {
         alert("There is error with the Foursquare API");
     });
